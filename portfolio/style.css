@@ -16,6 +16,51 @@ body {
     line-height: 1.6;
 }
 
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #1b1525, #2a1f3d);
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 2px solid var(--accent);
+}
+
+.header-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.perfil-foto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent);
+  box-shadow: 0 0 20px rgba(161, 110, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.perfil-foto:hover {
+  transform: scale(1.05);
+}
+
+.header-text h1 {
+  font-size: 2rem;
+  color: var(--accent-light);
+  margin: 0;
+}
+
+.header-text p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+
+
 /* Seção principal */
 #projetos {
     max-width: 1000px;
