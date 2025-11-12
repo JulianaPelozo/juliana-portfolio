@@ -1,145 +1,226 @@
 /* Cores baseadas em tons de roxo e preto */
 :root {
-  --bg-dark: #0e0b16;
-  --bg-card: #1b1725;
-  --accent: #a16eff;
-  --accent-light: #cbb2ff;
-  --text-light: #f3f3f3;
-  --text-muted: #bbb;
+    --bg-dark: #0e0b16;
+    --bg-card: #1b1725;
+    --accent: #a16eff;
+    --accent-light: #cbb2ff;
+    --text-light: #f3f3f3;
+    --text-muted: #bbb;
 }
 
 body {
-  background: var(--bg-dark);
-  color: var(--text-light);
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    background: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 /* Seção principal */
 #projetos {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 /* Título */
 #projetos h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: var(--accent-light);
-  margin-bottom: 50px;
-  position: relative;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--accent-light);
+    margin-bottom: 50px;
+    position: relative;
 }
 
 #projetos h2::after {
-  content: '';
-  width: 100px;
-  height: 4px;
-  background: var(--accent);
-  display: block;
-  margin: 12px auto 0;
-  border-radius: 10px;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: var(--accent);
+    display: block;
+    margin: 12px auto 0;
+    border-radius: 10px;
 }
 
 /* Grade dos cards */
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
 /* Estilo dos cards */
 .card {
-  background: var(--bg-card);
-  padding: 25px;
-  border-radius: 18px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: var(--bg-card);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(161,110,255,0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(161, 110, 255, 0.3);
 }
 
 .card h3 {
-  color: var(--accent-light);
-  font-size: 1.3rem;
-  margin-bottom: 10px;
+    color: var(--accent-light);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 .card p {
-  color: var(--text-muted);
-  font-size: 0.95rem;
-  margin-bottom: 15px;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
 }
 
 /* Tags */
 .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .tags span {
-  background: var(--accent);
-  color: var(--bg-dark);
-  font-weight: 600;
-  font-size: 0.85rem;
-  padding: 6px 12px;
-  border-radius: 999px;
-  transition: background 0.3s ease, color 0.3s ease;
+    background: var(--accent);
+    color: var(--bg-dark);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 999px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .tags span:hover {
-  background: var(--accent-light);
-  color: var(--bg-card);
+    background: var(--accent-light);
+    color: var(--bg-card);
 }
 
 /* Responsivo */
 @media (max-width: 600px) {
-  #projetos h2 {
-    font-size: 2rem;
-  }
+    #projetos h2 {
+        font-size: 2rem;
+    }
 
-  .card {
-    padding: 20px;
-  }
+    .card {
+        padding: 20px;
+    }
 }
+
 /* Cores baseadas em tons de roxo e preto */
 :root {
-  --bg-dark: #0e0b16;
-  --bg-card: #1b1725;
-  --accent: #a16eff;
-  --accent-light: #cbb2ff;
-  --text-light: #f3f3f3;
-  --text-muted: #bbb;
+    --bg-dark: #0e0b16;
+    --bg-card: #1b1725;
+    --accent: #a16eff;
+    --accent-light: #cbb2ff;
+    --text-light: #f3f3f3;
+    --text-muted: #bbb;
 }
+
 body {
-  background: var(--bg-dark);
-  color: var(--text-light);
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    background: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
+
 /* Seção principal */
 #projetos {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 /* Título */
-#projetos h2 {  
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: var(--accent-light);
-  margin-bottom: 50px;
-  position: relative;
+#projetos h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--accent-light);
+    margin-bottom: 50px;
+    position: relative;
 }
+
+#projetos h2::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: var(--accent);
+    display: block;
+    margin: 12px auto 0;
+    border-radius: 10px;
+}
+
+/* Grade dos cards */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Estilo dos cards */
+.card {
+    background: var(--bg-card);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(161, 110, 255, 0.3);
+}
+
+.card h3 {
+    color: var(--accent-light);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tags span {
+    background: var(--accent);
+    color: var(--bg-dark);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 999px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tags span:hover {
+    background: var(--accent-light);
+    color: var(--bg-card);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    #projetos h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
+
